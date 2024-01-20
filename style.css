@@ -116,7 +116,7 @@ input {
 .social-icons {
   margin-top: 30px;
 }
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 420px) and (max-width: 768px) {
   .container {
     width: 425px;
   }
@@ -126,7 +126,7 @@ input {
   }
   .btn {
     padding: 14px 145px;
-    margin-top: 35px;
+    margin-top: 15px;
     margin-right: 5px;
   }
   input {
@@ -137,8 +137,9 @@ input {
   }
   .invalid {
     margin-left: 115px;
+    margin-bottom: 10px;
     position: relative;
-    bottom: 85px;
+    bottom: 70px;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -156,19 +157,19 @@ input {
   }
   .btn {
     padding: 14px 170px;
-    margin-top: 35px;
+    margin-top: 15px;
   }
   .picture {
     width: 900px;
   }
   .invalid {
-    font-size: 14px;
+    font-size: 13px;
     margin-left: 230px;
     position: relative;
-    bottom: 85px;
+    bottom: 75px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 419px) {
   .container {
     width: 375px;
   }
@@ -190,6 +191,6 @@ input {
   .invalid {
     margin-left: 84px;
     position: relative;
-    bottom: 90px;
+    bottom: 72px;
   }
 }
